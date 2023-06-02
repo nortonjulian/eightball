@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './EightBall.css'
+import './Eightball.css'
 
 const EightBall = ({ answers }) => {
     const [color, setColor] = useState("black");
@@ -47,6 +47,5 @@ EightBall.defaultProps = {
         { msg: "Very doubtful.", color: "red" }
       ]
 }
-
 
 export default EightBall

@@ -1,5 +1,5 @@
 import React from 'react'
-import EightBall from './EightBall'
+import EightBall from './Eightball'
 
 function App() {
     return (
